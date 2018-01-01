@@ -6,7 +6,7 @@ theme = "portfolio_theme"
 [params]
   name = "Sandeep Harihara Bhat"
   description = "FullStack Engineer"
-  copyright = "sandeep harihara bhat"
+  copyright = "Sandeep Harihara Bhat"
 
 [[params.social]]
   medium = "facebook"
@@ -21,12 +21,7 @@ theme = "portfolio_theme"
 [[params.social]]
   medium = "linkedin"
   icon = "linkedin"
-  link = "https://github.com/sandyydk"
-
-[[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
+  link = "https://www.linkedin.com/in/sandeephbhat/"
 
 # Portfolio column one
 

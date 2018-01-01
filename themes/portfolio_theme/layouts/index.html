@@ -45,7 +45,7 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experience</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
@@ -58,7 +58,7 @@
 					<!-- Social Icons -->
 						<ul class="icons">
               {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+              <li><a href="{{ .link }}" target="_blank" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
               {{ end }}
 						</ul>
 
@@ -74,15 +74,14 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt">Hi! I'm <strong>Sandeep Bhat</strong>, a FullStack Engineer<br />
+								 currently a part of CISCO CloudCenter.</h2>
+								
 							</header>
 
-							<footer>
+							<!-- <footer>
 								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-							</footer>
+							</footer> -->
 
 						</div>
 					</section>
@@ -92,48 +91,26 @@
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Experience</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<div>
+									<div class="job">
+											<h2>Cmpute</h2>
+											<h3>Software Developer</h3>
+											<h4>Jan, 2017-Present</h4>
+											<p>Work as a Software Developer having created the new UI completely using Angular 2, HTML5, Bootstrap 3.0 and CSS 3.0 where Visual Studio Code is the IDE being used. Also work on the REST API design in C# using Visual Studio for IDE. All work are done in a fast-paced startup environment. </p>
+										</div>
+
+							</div>
 
 
               <div class="row">
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+                
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+                
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+                
               </div>
 
 
@@ -148,14 +125,22 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="img/sandeep.JPG" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>Sandeep is a FullStack developer who comes with over 2 years of experience in the industry
+								having worked in a startup which got acquired by CISCO. He began his career as an R &amp D Engineer 
+								in HPE. Then he joined Cmpute.io a SAAS product company which provided cost optimization and cloud management
+								of AWS resources. Cmpute.io got acquired by CISCO. Currently Sandeep works as a FullStack developer in CISCO. 
+							</p>
+							<p>
+								Apart from being an engineer, Sandeep loves enjoying life to the fullest. He is a traveller.
+								He also loves going on long rides on his Yamaha R15. Movies and TV series are his other interests apart from
+								reading thriller novels with John Grisham, James Hadley Chase, Dan Brown, Ravi Subramanian, Amish Tripathi being his 
+								favourites. He occasionally loves to read real stories of people and learn about their experiences and trivias like 
+								Porter Erisman's Alibaba's World, Brad Stone's The Everything Store and Ashlee Vance's Elon Musk biography.
+								He admires Jeff Bezos, Jack Ma, Vijay Shekhar Sharma, Elon Musk, Bhavin Turakhia and quite a lot of enterprising entrepreneurs.
+
+							</p>
 
 						</div>
 					</section>
@@ -168,23 +153,12 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p>
+								<div>Email: sandyethadka@gmail.com </div>
+								<div>Mob: 8050130759 </div>
+							</p>
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
+							
 
 						</div>
 					</section>
@@ -196,7 +170,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+						<li>&copy; {{ .Site.Params.copyright }}</li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
 					</ul>
 
 			</div>
