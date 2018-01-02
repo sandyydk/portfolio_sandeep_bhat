@@ -5,32 +5,34 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>{{ .Title }}</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
 
-		<!-- Header -->
-			<div id="header">
+<head>
+	<title>{{ .Title }}</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+</head>
 
-				<div class="top">
+<body>
 
-					<!-- Logo -->
-						<div id="logo">
-							<!-- <span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span> -->
-							<h1 id="title">{{ .Site.Params.name }}</h1>
-							<p>{{ .Site.Params.description }}</p>
-						</div>
+	<!-- Header -->
+	<div id="header">
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+		<div class="top">
+
+			<!-- Logo -->
+			<div id="logo">
+				<!-- <span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span> -->
+				<h1 id="title">{{ .Site.Params.name }}</h1>
+				<p>{{ .Site.Params.description }}</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<!--
 
 								Prologue's nav expects links in one of two formats:
 
@@ -43,146 +45,200 @@
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 
 							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experience</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+				<ul>
+					<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+					<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experience</span></a></li>
+					<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+					<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+				</ul>
+			</nav>
 
-				</div>
+		</div>
 
-				<div class="bottom">
+		<div class="bottom">
 
-					<!-- Social Icons -->
-						<ul class="icons">
-              {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" target="_blank" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
-              {{ end }}
-						</ul>
+			<!-- Social Icons -->
+			<ul class="icons">
+				{{ range .Site.Params.social }}
+				<li><a href="{{ .link }}" target="_blank" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+				{{ end }}
+			</ul>
 
-				</div>
+		</div>
 
-			</div>
+	</div>
 
-		<!-- Main -->
-			<div id="main">
+	<!-- Main -->
+	<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+		<!-- Intro -->
+		<section id="top" class="one dark cover">
+			<div class="container">
 
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Sandeep Bhat</strong>, a FullStack Engineer<br />
-								 currently a part of CISCO CloudCenter.</h2>
-								
-							</header>
+				<header>
+					<h2 class="alt">Hi! I'm <strong>Sandeep Bhat</strong>, a FullStack Engineer<br /> currently a part of CISCO CloudCenter.</h2>
 
-							<!-- <footer>
+				</header>
+
+				<!-- <footer>
 								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
 							</footer> -->
 
-						</div>
-					</section>
+			</div>
+		</section>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
+		<!-- Portfolio -->
+		<section id="portfolio" class="two">
+			<div class="container">
 
-							<header>
-								<h2>Experience</h2>
-							</header>
+				<header>
+					<h2>Experience</h2>
+				</header>
 
-							<div>
-									<div class="job">
-											<h2>Cmpute</h2>
-											<h3>Software Developer</h3>
-											<h4>Jan, 2017-Present</h4>
-											<p>Work as a Software Developer having created the new UI completely using Angular 2, HTML5, Bootstrap 3.0 and CSS 3.0 where Visual Studio Code is the IDE being used. Also work on the REST API design in C# using Visual Studio for IDE. All work are done in a fast-paced startup environment. </p>
-										</div>
+				<div>
+					<div class="job">
+						<h2 class="experience-header">Cisco</h2>
+						<h3>Software Engineer - II</h3>
+						<h4>Jan, 2018- Present</h4>
+						<br>
 
-							</div>
+						<ul class="padding-top-1">
+							<li> Part of a relatively small team of about 100 odd strong Cisco CloudCenter </li>	
+						</ul>
+
+					</div>
+
+					<div class="job">
+						<h2 class="experience-header">Cmpute.io (Acquired by CISCO)</h2>
+						<h3>Software Developer</h3>
+						<h4>Jan, 2017-Dec, 2017</h4>
+						<br>
+
+						<ul class="padding-top-1">
+							<li> Developed the front-end web app from scratch in under 2 months. </li>
+							<li> Owned UI completely and ensured uptime. </li>
+							<li> Designed and implemented backend common shared libraries in Golang using Factory design pattern.</li>
+							<li> Designed Golang Notification service as a micro-service.</li>
+							<li> AWS Lambda function to automate certain reactive actions in AWS using CloudFormation templates (Java). </li>
+							<li> AWS intermediate knowledge having developed apps for Cmpute.io platform to automate AWS apps like OpsWorks, ASG, AMI
+								etc. </li>
+							<li> Owned and developed Web APIs written in C# web API 2.0. </li>
+							<li> Worked on integrating ChargeBee payments, One Login, Intercom and other external APIs. </li>
+							<li> Provided bug fixes in a timely and reliable manner. </li>
+						</ul>
 
 
-              <div class="row">
-                
+					</div>
 
-                
+					<div class="job">
+						<h2 class="experience-header">Hewlett Packard Enterprise</h2>
+						<h3>R &amp D Engineer</h3>
+						<h4>Aug, 2015- Jan, 2017</h4>
+						<br>
 
-                
-              </div>
+						<ul class="padding-top-1">
+							<li> Part of Virtual Connect (VC) firmware development team. </li>
+							<li> Worked mostly on security related aspects and features like FIPS. </li>
+							<li> Implemented Audit Logging as a feature which exposed auditing based information conforming to the given format using Syslog.</li>
+							<li> Customized OpenSSH and OpenSSL to meet FIPS 2.0 standards.</li>
+							<li> Delivered fixes to CVEs. </li>
+							<li> Gave presentation to management on Cloud Security.</li>
+							<li> Fixed several critical bugs and delivered timely fixes. </li>
+						
+						</ul>
 
 
-						</div>
-					</section>
+					</div>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+					<div class="job">
+						<h2 class="experience-header">Sonus Networks</h2>
+						<h3>Software Development Intern</h3>
+						<h4>Jun, 2014- Aug, 2014</h4>
+						<br>
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+						<ul class="padding-top-1">
+							<li> Created a FSM Call Flow Diagram analyzing SBC Debug Logs to help understand complex FSM of different modules running on the SBX system. </li>
+							<li> Perl script helped identify point of failure pictographically as a flow chart. </li>
+						
+						</ul>
 
-							<a href="#" class="image featured"><img src="img/sandeep.JPG" alt="" /></a>
 
-							<p>Sandeep is a FullStack developer who comes with over 2 years of experience in the industry
-								having worked in a startup which got acquired by CISCO. He began his career as an R &amp D Engineer 
-								in HPE. Then he joined Cmpute.io a SAAS product company which provided cost optimization and cloud management
-								of AWS resources. Cmpute.io got acquired by CISCO. Currently Sandeep works as a FullStack developer in CISCO. 
-							</p>
-							<p>
-								Apart from being an engineer, Sandeep loves enjoying life to the fullest. He is a traveller.
-								He also loves going on long rides on his Yamaha R15. Movies and TV series are his other interests apart from
-								reading thriller novels with John Grisham, James Hadley Chase, Dan Brown, Ravi Subramanian, Amish Tripathi being his 
-								favourites. He occasionally loves to read real stories of people and learn about their experiences and trivias like 
-								Porter Erisman's Alibaba's World, Brad Stone's The Everything Store and Ashlee Vance's Elon Musk biography.
-								He admires Jeff Bezos, Jack Ma, Vijay Shekhar Sharma, Elon Musk, Bhavin Turakhia and quite a lot of enterprising entrepreneurs.
+					</div>
 
-							</p>
+				</div>
 
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>
-								<div>Email: sandyethadka@gmail.com </div>
-								<div>Mob: 8050130759 </div>
-							</p>
-
-							
-
-						</div>
-					</section>
 
 			</div>
+		</section>
 
-		<!-- Footer -->
-			<div id="footer">
+		<!-- About Me -->
+		<section id="about" class="three">
+			<div class="container">
 
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; {{ .Site.Params.copyright }}</li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
-					</ul>
+				<header>
+					<h2>About Me</h2>
+				</header>
+
+				<a href="#" class="image featured"><img src="img/sandeep.JPG" alt="" /></a>
+
+				<p>Sandeep is a FullStack developer who comes with over 2 years of experience in the industry having worked in a startup
+					which got acquired by CISCO. He began his career as an R &amp D Engineer in HPE. Then he joined Cmpute.io a SAAS product
+					company which provided cost optimization and cloud management of AWS resources. Cmpute.io got acquired by CISCO. Currently
+					Sandeep works as a FullStack developer in CISCO.
+				</p>
+				<p>
+					Apart from being an engineer, Sandeep loves enjoying life to the fullest. He is a traveller. He also loves going on long
+					rides on his Yamaha R15. Movies and TV series are his other interests apart from reading thriller novels with John Grisham,
+					James Hadley Chase, Dan Brown, Ravi Subramanian, Amish Tripathi being his favourites. He occasionally loves to read
+					real stories of people and learn about their experiences and trivias like Porter Erisman's Alibaba's World, Brad Stone's
+					The Everything Store and Ashlee Vance's Elon Musk biography. He admires Jeff Bezos, Jack Ma, Vijay Shekhar Sharma, Elon
+					Musk, Bhavin Turakhia and quite a lot of enterprising entrepreneurs.
+
+				</p>
 
 			</div>
+		</section>
 
-		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-			<script src="/js/jquery.scrolly.min.js"></script>
-			<script src="/js/jquery.scrollzer.min.js"></script>
-			<script src="/js/skel.min.js"></script>
-			<script src="/js/util.js"></script>
-			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/js/main.js"></script>
+		<!-- Contact -->
+		<section id="contact" class="four">
+			<div class="container">
 
-	</body>
+				<header>
+					<h2>Contact</h2>
+				</header>
+
+				<p>
+					<div>Email: sandyethadka@gmail.com </div>
+					<div>Mob: 8050130759 </div>
+				</p>
+
+
+
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; {{ .Site.Params.copyright }}</li>
+			<li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+		</ul>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery.scrolly.min.js"></script>
+	<script src="/js/jquery.scrollzer.min.js"></script>
+	<script src="/js/skel.min.js"></script>
+	<script src="/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/js/main.js"></script>
+
+</body>
+
 </html>

@@ -2558,3 +2558,27 @@
 				}
 
 	}
+
+	.experience-header {
+		text-align: left;
+		font-weight: bold;
+	}
+
+	.padding-top-1 {
+		padding-top: 1em;
+	}
+
+	.job h3 {
+		float: left;
+	}
+
+	.job h4 {
+		float: right;
+	}
+
+	.job ul {
+		text-align: left;
+	}
+	li {
+		list-style-type: circle;
+	}
