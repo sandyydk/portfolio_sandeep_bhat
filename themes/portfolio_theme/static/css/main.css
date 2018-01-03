@@ -2564,6 +2564,21 @@
 		font-weight: bold;
 	}
 
+	.education h5 {
+		text-align: left;
+		float: left;
+	}
+
+	.education .time {
+		float: right;
+		font-weight: lighter;
+	}
+
+	.education h4 {
+		text-align: left;
+		font-weight: bold;
+	}
+
 	.padding-top-1 {
 		padding-top: 1em;
 	}
@@ -2581,4 +2596,13 @@
 	}
 	li {
 		list-style-type: circle;
+	}
+
+	.technical ul{
+		position: relative;
+	}
+
+	.technical li {
+		float: left;
+    	padding-right: 3em;
 	}
