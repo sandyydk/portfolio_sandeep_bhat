@@ -2606,3 +2606,7 @@
 		float: left;
     	padding-right: 3em;
 	}
+
+	#about p {
+		text-align: left;
+	}
