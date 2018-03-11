@@ -2060,7 +2060,7 @@
 		}
 
 		#logo .image {
-			position: absolute;
+			margin-bottom: 0px;
 			left: 0;
 			top: 0;
 		}
